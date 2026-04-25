@@ -80,7 +80,7 @@ MIT
 
 ## Author
 
-SWILL Team — 2026
+Cat UGOL — 2026
 
 ---
 
