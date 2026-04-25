@@ -1,35 +1,100 @@
-# ZAPCORE — Anti-DPI Bypass Tool
+# ZAPCORE - Anti-DPI Bypass
 
-ZAPCORE - однострочный инструмент для обхода DPI (Deep Packet Inspection) на Windows.
-Работает через фрагментацию пакетов, подмену TTL и отправку фиктивных дубликатов.
+[Русский] | [English]
 
-Поддержка: Windows 10/11
-Лицензия: MIT
-Размер: 8KB
+---
 
--------------------------------------------------------------------------------
+## [Русский]
 
-Быстрый старт
+**ZAPCORE** — инструмент для обхода DPI блокировок на Windows.
 
-1. Скачать zapcore.bat
-2. Запустить от имени Администратора
-3. Выбрать режим (1-10)
-4. Работать в обход блокировок
+### Установка
 
--------------------------------------------------------------------------------
+Скачай `zapcore.bat`. Запусти от имени Администратора.
 
-Установка
+### Использование
 
-curl -o zapcore.bat https://raw.githubusercontent.com/yourname/zapcore/main/zapcore.bat
+Выбери режим цифрой:
 
-При первом запуске WinDivert скачается автоматически.
+| Кнопка | Режим |
+|--------|-------|
+| `1` | SYN + TTL |
+| `2` | Фрагмент 128 |
+| `3` | Фрагмент 1400 |
+| `4` | Полный обход |
+| `5` | Турбо |
+| `6` | Стелс |
+| `7` | ICMP |
+| `8` | UDP |
+| `9` | Переустановить |
+| `0` | Выход |
 
--------------------------------------------------------------------------------
+### Где работает
 
-Меню
+YouTube, Discord, Roblox, Telegram, Twitch, Netflix.
 
-[1]  START - SYN + TTL SPOOF
-[2]  START - FRAGMENT MODE (MTU 128)
-[3]  START - FRAGMENT MODE (MTU 1400)
-[4]  START - FULL BYPASS
-[5]  START - TURBO MODE (mtu
+### Это вирус?
+
+Нет. WinDivert перехватывает сетевые пакеты — антивирус ругается ложно. Код открыт.
+
+---
+
+## [English]
+
+**ZAPCORE** — DPI bypass tool for Windows.
+
+### Installation
+
+Download `zapcore.bat`. Run as Administrator.
+
+### Usage
+
+Select mode by number:
+
+| Button | Mode |
+|--------|------|
+| `1` | SYN + TTL |
+| `2` | Fragment 128 |
+| `3` | Fragment 1400 |
+| `4` | Full bypass |
+| `5` | Turbo |
+| `6` | Stealth |
+| `7` | ICMP |
+| `8` | UDP |
+| `9` | Reinstall |
+| `0` | Exit |
+
+### Works on
+
+YouTube, Discord, Roblox, Telegram, Twitch, Netflix.
+
+### Is this a virus?
+
+No. WinDivert intercepts network packets — antivirus false positive. Open source.
+
+---
+
+## License
+
+MIT
+
+## Author
+
+SWILL Team — 2026
+
+---
+
+## Download
+
+[⬇️ Скачать zapcore.bat]
+
+---
+
+## Release notes
+
+### ZAPCORE v1.0
+
+- Первый публичный релиз
+- 9 режимов обхода
+- Автоматическая установка WinDivert
+- Работает с YouTube, Discord, Roblox, Telegram<img width="1893" height="1014" alt="Screenshot_20260425_184631" src="https://github.com/user-attachments/assets/3f3b0f05-0d6e-43b9-a9cd-6c2030435efe" />
